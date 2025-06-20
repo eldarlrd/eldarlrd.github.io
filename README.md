@@ -33,8 +33,34 @@ user-friendly interfaces and a soft spot for open-source software.
 
 ---
 
+## 🗺️ Web Apps
+
+- [Portfolio](./portfolio)
+- [Docs & Blog](./eldarlrd)
+- [CV Maker](./cv-maker)
+- [Fifteen Puzzle](./fifteen-puzzle)
+- [Todo List](./todo-list)
+- [TS Battleship](./ts-battleship)
+- [JS Algorithms](./js-algorithms)
+- [Weather App](./weather-app)
+- [Random Quote Machine](./random-quote-machine)
+- [Rock Paper Scissors](./rock-paper-scissors)
+- [Markdown Previewer](./markdown-previewer)
+- [Pomodoro Timer](./pomodoro-timer)
+- [Drum Machine](./drum-machine)
+- [Tic Tac Toe](./tic-tac-toe)
+- [TS Library](./ts-library)
+- [Fake API Forum](./fake-api-forum)
+- [Restauraunt Page](./restaurant-page)
+- [JS Calculator](./js-calculator)
+- [Etch A Sketch](./etch-a-sketch)
+- [Web Design Compendium](./web-design)
+- [Data Visualization Compendium](./data-visualization)
+
+---
+
 ## 📫 Let's Connect
 
-- [GitHub](https://github.com/eldarlrd)
+- [GitHub](./github)
 - [LinkedIn](https://linkedin.com/in/eldarlrd)
 - [Instagram](https://instagram.com/eldarlrd)
