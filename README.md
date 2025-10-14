@@ -1,6 +1,6 @@
 # 👋 Hey there, I'm Eldar Pashazade!
 
-🪩 Frontend Developer | 🎓 Master of AI | 🦌 FOSS Enthusiast
+🪩 Frontend Developer 🞄 🎓 Master of AI 🞄 🦌 FOSS Enthusiast
 
 Welcome to my digital corner of the internet. A web developer from Baku, Azerbaijan; with a strong focus on building clean, 
 user-friendly interfaces and a soft spot for open source software.
