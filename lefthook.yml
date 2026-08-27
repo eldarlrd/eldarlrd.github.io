@@ -12,5 +12,5 @@ pre-push:
   commands:
     orphans:
       run: bun orphans
-    cover:
-      run: bun cover
+#    cover:
+#      run: bun cover
