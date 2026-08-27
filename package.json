@@ -1,0 +1,49 @@
+{
+  "name": "eldarlrd.github.io",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "keywords": [
+    "personal",
+    "retro"
+  ],
+  "description": "A simple personal website",
+  "repository": "github:eldarlrd/eldarlrd.github.io",
+  "homepage": "https://eldarlrd.is-a.dev",
+  "author": "Eldar Pashazade <eldarlrd@pm.me> (https://eldarlrd.is-a.dev)",
+  "scripts": {
+    "dev": "vite --open",
+    "bundle": "tsc && vite build",
+    "serve": "vite preview",
+    "check": "bun test __tests__/**/*.{test,spec}.{ts,tsx} --randomize",
+    "check:w": "bun check --watch",
+    "cover": "bun check --coverage",
+    "deployer": "bun bundle && gh-pages -b prod -m 'build(prod): deployment' -d dist",
+    "fix": "biome check --fix --unsafe --no-errors-on-unmatched --reporter=concise",
+    "orphans": "knip --cache --no-exit-code"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "dependencies": {
+    "jquery": "^4.0.0",
+    "sass": "^1.103.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.10",
+    "@commitlint/cli": "^21.2.2",
+    "@commitlint/config-conventional": "^21.2.2",
+    "@fontsource-variable/handjet": "^5.3.0",
+    "@happy-dom/global-registrator": "^20.11.9",
+    "@phosphor-icons/webcomponents": "^2.1.5",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@types/bun": "^1.4.0",
+    "gh-pages": "^6.3.0",
+    "knip": "^6.32.3",
+    "lefthook": "^2.1.10",
+    "typescript": "~7.0.2",
+    "vite": "^8.2.2"
+  }
+}
