@@ -1,7 +1,7 @@
 {
   "name": "eldarlrd.github.io",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "keywords": [
     "personal",
@@ -26,10 +26,6 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
-  },
-  "dependencies": {
-    "jquery": "^4.0.0",
-    "sass": "^1.103.1"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.5.10",
