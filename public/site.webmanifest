@@ -1,0 +1,21 @@
+{
+  "name": "eldarlrd/index",
+  "short_name": "eldarlrd/index",
+  "dir": "ltr",
+  "lang": "en",
+  "categories": ["personalization"],
+  "display": "minimal-ui",
+  "orientation": "natural",
+  "theme_color": "#fff",
+  "background_color": "#fff",
+  "description": "A simple personal website",
+  "start_url": "https://eldarlrd.is-a.dev/",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}
