@@ -4,20 +4,23 @@
   "workspaces": {
     "": {
       "name": "eldarlrd.github.io",
+      "dependencies": {
+        "@fontsource-variable/handjet": "^5.3.0",
+        "@phosphor-icons/webcomponents": "^2.1.5",
+        "modern-normalize": "^3.0.1",
+      },
       "devDependencies": {
-        "@biomejs/biome": "latest",
-        "@commitlint/cli": "latest",
-        "@commitlint/config-conventional": "latest",
-        "@fontsource-variable/handjet": "latest",
-        "@happy-dom/global-registrator": "latest",
-        "@phosphor-icons/webcomponents": "latest",
-        "@testing-library/jest-dom": "latest",
-        "@types/bun": "latest",
-        "gh-pages": "latest",
-        "knip": "latest",
-        "lefthook": "latest",
-        "typescript": "latest",
-        "vite": "latest",
+        "@biomejs/biome": "^2.5.11",
+        "@commitlint/cli": "^21.2.2",
+        "@commitlint/config-conventional": "^21.2.2",
+        "@happy-dom/global-registrator": "^20.12.0",
+        "@testing-library/jest-dom": "^7.0.1",
+        "@types/bun": "^1.4.0",
+        "gh-pages": "^6.3.0",
+        "knip": "^6.34.0",
+        "lefthook": "^2.1.12",
+        "typescript": "~7.0.2",
+        "vite": "^8.2.2",
       },
     },
   },
@@ -491,6 +494,8 @@
     "micromatch": ["micromatch@4.0.8", "", { "dependencies": { "braces": "^3.0.3", "picomatch": "^2.3.1" } }, "sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA=="],
 
     "min-indent": ["min-indent@1.0.1", "", {}, "sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg=="],
+
+    "modern-normalize": ["modern-normalize@3.0.1", "", {}, "sha512-VqlMdYi59Uch6fnUPxnpijWUQe+TW6zeWCvyr6Mb7JibheHzSuAAoJi2c71ZwIaWKpECpGpYHoaaBp6rBRr+/g=="],
 
     "nanoid": ["nanoid@3.3.18", "", { "bin": { "nanoid": "bin/nanoid.cjs" } }, "sha512-DTg4MJbGMWkfi6VZFdNt2/caMbQy4Ou+Op/hJQvGEWcnVfoA1QA+xzRKAzw9jD6+GVOOeYr/mIcuDSdug6F6+w=="],
 
