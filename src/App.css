@@ -1,4 +1,15 @@
+@import url('config/_variables.css');
+
 :root {
   scroll-behavior: smooth;
   scrollbar-width: thin;
+}
+
+::selection {
+  /*background: ;*/
+  /*color: ;*/
+}
+
+button {
+  /*-webkit-tap-highlight-color: ;*/
 }
