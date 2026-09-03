@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+
+@layer base {
+  a, button {
+    -webkit-tap-highlight-color:
+      color-mix(var(--color-violet-700) 50%, transparent);
+  }
+}
+
+@theme inline {
+  --font-handjet: 'Handjet Variable', sans-serif;
+}

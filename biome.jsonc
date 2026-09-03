@@ -24,7 +24,9 @@
         "useSortedInterfaceMembers": "on",
         "useSortedKeys": "on",
         "useSortedPackageJson": "on",
-        "useSortedProperties": "on"
+        "useSortedProperties": "on",
+        "useSortedSelectionSet": "on",
+        "useSortedTypeFields": "on"
       }
     }
   },
@@ -86,7 +88,7 @@
     "rules": {
       // Missing • padding-line-between-statements
       "a11y": {
-        "noNoninteractiveElementInteractions": "info"
+        "noNoninteractiveElementInteractions": "error"
       },
       "complexity": {
         "noExcessiveCognitiveComplexity": "info",
@@ -97,14 +99,13 @@
             "skipBlankLines": true
           }
         },
+        "noRedundantDefaultExport": "warn",
         "noUselessReturn": "info",
         "useSimplifiedLogicExpression": "info",
         "useWhile": "warn"
       },
       "correctness": {
         "noNestedComponentDefinitions": "error", // React
-        "noUndeclaredDependencies": "off",
-        "noUnresolvedImports": "off",
         "noUnusedInstantiation": "info",
         "useSingleJsDocAsterisk": "info",
         "useUniqueElementIds": "off" // React
@@ -158,6 +159,7 @@
         "useImportsFirst": "warn",
         "useIncludes": "info", // Types
         "useMathMinMax": "warn",
+        "useNamedCaptureGroup": "info",
         "useNamedLayer": "warn", // CSS
         "useNullishCoalescing": "warn", // Types
         "useQwikLoaderLocation": "warn", // Qwik
@@ -189,6 +191,7 @@
       "performance": {
         "noAwaitInLoops": "info",
         "noBarrelFile": "warn",
+        "noDelete": "warn",
         "noJsxPropsBind": "off", // React
         "noNamespaceImport": "warn",
         "noReExportAll": "warn",
@@ -205,6 +208,7 @@
       },
       "style": {
         "noCommonJs": "warn",
+        "noDefaultExport": "warn",
         "noExcessiveClassesPerFile": {
           "level": "info",
           "options": {
@@ -263,12 +267,6 @@
         "useFragmentSyntax": "info",
         "useGlobalThis": "warn",
         "useGroupedAccessorPairs": "info",
-        "useImportType": {
-          "level": "warn",
-          "options": {
-            "style": "inlineType"
-          }
-        },
         "useReadonlyClassProperties": {
           "level": "info",
           "options": {

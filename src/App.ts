@@ -1,9 +1,7 @@
 import '@fontsource-variable/handjet';
-import 'modern-normalize';
-import '@/App.css';
+import '/tailwind.config.css';
+import { Header } from '@/feats/Header/index.ts';
 
-const App = (): string => `
-  <div>Hello World!</div>
+export const App = (): string => `
+  ${Header()}
 `;
-
-export default App;

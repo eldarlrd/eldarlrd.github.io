@@ -3,7 +3,7 @@
 
 > eldarlrd/index is made with
 > - **[TypeScript](https://typescriptlang.org)**
-> - **[CSS](https://web.dev/css)**
+> - **[Tailwind](https://tailwindcss.com)**
 > - **[commitlint](https://commitlint.js.org)**
 > - **[Lefthook](https://lefthook.dev)**
 >
