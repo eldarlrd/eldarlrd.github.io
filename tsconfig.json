@@ -16,6 +16,7 @@
     "noEmit": true,
     "paths": {
       "@/*": ["./src/*"],
+      "$/*": ["./src/data/*"],
       "#/*": ["./src/assets/*"]
     },
     // Linting

@@ -5,7 +5,11 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   base: '/',
   resolve: {
-    alias: { '@': '/src', '#': '/src/assets' }
+    alias: {
+      '@': '/src',
+      '$': '/src/data',
+      '#': '/src/assets'
+    }
   },
   plugins: [
     tailwindcss()
