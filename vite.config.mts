@@ -8,6 +8,7 @@ export default defineConfig({
     alias: {
       '@': '/src',
       '$': '/src/data',
+      '%': '/src/utils',
       '#': '/src/assets'
     }
   },

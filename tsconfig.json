@@ -17,6 +17,7 @@
     "paths": {
       "@/*": ["./src/*"],
       "$/*": ["./src/data/*"],
+      "%/*": ["./src/utils/*"],
       "#/*": ["./src/assets/*"]
     },
     // Linting

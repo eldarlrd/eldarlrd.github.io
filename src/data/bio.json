@@ -1,6 +1,7 @@
 {
-  "location": "Baku, Azerbaijan",
+  "dateOfBirth": "2001-11-27",
+  "location": "Bakı, Azərbaycan",
   "name": "Eldar Paşazadə",
-  "profession": "Frontend Developer",
-  "username": "eldarlrd"
+  "nickname": "eldarlrd",
+  "profession": "Frontend Developer"
 }
