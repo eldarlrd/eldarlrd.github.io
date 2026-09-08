@@ -23,7 +23,7 @@ export const Bio = (): string => {
         </h1>
         
         <h2>
-          <span class='text-violet-400'>${bio.profession}</span>
+          <span class='text-slate-100'>${bio.profession}</span>
           <div class='text-lg/6'>🇦🇿 ${bio.location}</div>
         </h2>
       </figcaption>
