@@ -1,7 +1,7 @@
 {
   "name": "eldarlrd.github.io",
   "private": true,
-  "version": "0.1.1",
+  "version": "0.2.0",
   "type": "module",
   "keywords": [
     "personal",
@@ -10,7 +10,7 @@
   "description": "A simple personal website",
   "repository": "github:eldarlrd/eldarlrd.github.io",
   "homepage": "https://eldarlrd.is-a.dev",
-  "author": "Eldar Pashazade <eldarlrd@pm.me> (https://eldarlrd.is-a.dev)",
+  "author": "Eldar Paşazadə <eldarlrd@pm.me> (https://eldarlrd.is-a.dev)",
   "scripts": {
     "dev": "vite --open",
     "bundle": "tsc && vite build",
