@@ -1,4 +1,5 @@
 {
+  "extends": "@tsconfig/svelte/tsconfig.json",
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
@@ -8,7 +9,7 @@
     "skipLibCheck": true,
     "composite": true,
     // Bundler
-    "types": ["vite/client", "@types/bun"],
+    "types": ["vite/client", "@types/bun", "svelte"],
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,

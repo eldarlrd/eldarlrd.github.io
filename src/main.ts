@@ -1,5 +1,7 @@
-import { App } from '@/App.ts';
+import { mount } from 'svelte';
 
-const rootEl = document.getElementById('root');
+import App from '@/App.svelte';
 
-if (rootEl) rootEl.innerHTML = App();
+const target = document.getElementById('root');
+
+if (target) mount(App, { target });

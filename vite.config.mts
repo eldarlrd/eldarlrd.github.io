@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 import tailwindcss from '@tailwindcss/vite';
+import { svelte } from '@sveltejs/vite-plugin-svelte'
 
 // https://vite.dev/config
 export default defineConfig({
@@ -9,10 +10,13 @@ export default defineConfig({
       '@': '/src',
       '$': '/src/data',
       '%': '/src/utils',
-      '#': '/src/assets'
-    }
+      '#': '/src/assets',
+    },
   },
   plugins: [
-    tailwindcss()
-  ]
+    tailwindcss(),
+    svelte({
+      inspector: true,
+    }),
+  ],
 });

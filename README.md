@@ -3,7 +3,9 @@
 
 > eldarlrd/index is made with
 > - **[TypeScript](https://typescriptlang.org)**
+> - **[Svelte](https://svelte.dev)**
 > - **[Tailwind](https://tailwindcss.com)**
+> - **[Pixelarticons](https://pixelarticons.com)**
 > - **[commitlint](https://commitlint.js.org)**
 > - **[Lefthook](https://lefthook.dev)**
 >
@@ -34,6 +36,11 @@ bun fix
 ### See Orphans (Knip)
 ```sh
 bun orphans
+```
+## Test
+### Run Watch
+```sh
+bun check:w
 ```
 ## Deployment
 ```sh
