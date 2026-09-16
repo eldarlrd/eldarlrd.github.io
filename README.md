@@ -2,8 +2,8 @@
 [![Version](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/eldarlrd/main/package.json&query=version&logo=git-extensions&label=version&labelColor=475569&color=0284c7)](https://github.com/eldarlrd/blob/main/package.json)
 
 > eldarlrd/index is made with
-> - **[TypeScript](https://typescriptlang.org)**
 > - **[Svelte](https://svelte.dev)**
+> - **[TypeScript](https://typescriptlang.org)**
 > - **[Tailwind](https://tailwindcss.com)**
 > - **[Pixelarticons](https://pixelarticons.com)**
 > - **[commitlint](https://commitlint.js.org)**
