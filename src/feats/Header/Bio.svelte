@@ -13,16 +13,16 @@
     src="https://github.com/eldarlrd.png"
   />
 
-  <figcaption class="space-y-4">
+  <figcaption class="space-y-4 select-none">
     <h1>
       <span class="font-medium text-slate-100">{bio.name}</span>
-      <span class="font-light italic">aka</span>
 
       <div>
         {bio.nickname}
-        <i class="pixelart-icons-font-cake text-base!"></i>
-        {yearsOld}
-        y.o.
+        <span title="unless 🪦">
+          <i class="pixelart-icons-font-cake text-base!"></i>
+          {yearsOld}
+        </span>
       </div>
     </h1>
 
