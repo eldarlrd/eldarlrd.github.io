@@ -9,7 +9,9 @@
   onMount(useTooltip);
 </script>
 
-<Header />
+<div class="justify-self-center-safe w-full max-w-5xl">
+  <Header />
+</div>
 
 <style lang="css">
   :global(.tippy-box[data-theme~='violet']) {

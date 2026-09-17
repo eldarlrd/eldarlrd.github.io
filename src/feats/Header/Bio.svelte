@@ -9,7 +9,7 @@
 <figure class="grid grid-cols-[auto_minmax(0,1fr)] items-center-safe justify-baseline gap-4">
   <img alt="Avatar" class="border-violet-400 aspect-square size-32 border-2" src={bio.avatar} />
 
-  <figcaption class="space-y-3 select-none">
+  <figcaption class="space-y-4">
     <h1>
       <span class="font-medium text-slate-100">{bio.name}</span>
 
@@ -22,19 +22,12 @@
       </div>
     </h1>
 
-    <div>
-      <p class="inline-block text-sm/4" title={bio.quoteTooltip}>
-        <i class="pixelart-icons-font-tea align-text-bottom text-sm!"></i>
-        {bio.quoteVerse}
-      </p>
-
-      <h2>
-        <span class="text-slate-100">{bio.profession}</span>
-        <div class="text-lg/6">
-          <i class="pixelart-icons-font-map-pin align-text-bottom text-base!"></i>
-          {bio.location}
-        </div>
-      </h2>
-    </div>
+    <h2>
+      <span class="text-slate-100">{bio.profession}</span>
+      <div class="text-lg/6">
+        <i class="pixelart-icons-font-map-pin align-text-bottom text-base!"></i>
+        {bio.location}
+      </div>
+    </h2>
   </figcaption>
 </figure>

@@ -1,11 +1,16 @@
 {
   "avatar": "https://github.com/eldarlrd.png",
   "dateOfBirth": "2001-11-27",
+  "github": "/github",
+  "instagram": "https://instagram.com/eldarlrd",
+  "linkedin": "https://linkedin.com/in/eldarlrd",
   "location": "Bakı, Azərbaycan",
   "name": "Eldar Paşazadə",
   "nickname": "eldarlrd",
+  "portfolio": "/portfolio",
   "profession": "Software Engineer",
   "quoteTooltip": "A woundless hand may carry even poison",
   "quoteVerse": "Dhammapada 9:124",
-  "ripTooltip": "unless ☠"
+  "ripTooltip": "unless ☠",
+  "steam": "https://steamcommunity.com/id/eldarlrd"
 }
