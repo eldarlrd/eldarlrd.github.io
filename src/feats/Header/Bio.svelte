@@ -7,11 +7,7 @@
 </script>
 
 <figure class="grid grid-cols-[auto_minmax(0,1fr)] items-center-safe justify-baseline gap-4">
-  <img
-    alt="Avatar"
-    class="border-violet-400 aspect-square size-32 border-2"
-    src="https://github.com/eldarlrd.png"
-  />
+  <img alt="Avatar" class="border-violet-400 aspect-square size-32 border-2" src={bio.avatar} />
 
   <figcaption class="space-y-3 select-none">
     <h1>
