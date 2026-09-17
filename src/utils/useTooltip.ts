@@ -7,7 +7,6 @@ const HIDE_DELAY = 150;
 
 export const useTooltip = (): (() => void) => {
   const tooltips = delegate(document.body, {
-    arrow: false,
     content: (reference) => reference.getAttribute('title') ?? '',
     delay: [SHOW_DELAY, HIDE_DELAY],
     onTrigger: (instance) => {
@@ -19,7 +18,6 @@ export const useTooltip = (): (() => void) => {
         instance.reference.removeAttribute('title');
       }
     },
-    placement: 'right',
     target: TOOLTIP_TARGETS,
     theme: 'violet',
     touch: ['hold', HIDE_DELAY], // touch delay

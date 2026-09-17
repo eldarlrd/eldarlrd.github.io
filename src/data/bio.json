@@ -3,5 +3,8 @@
   "location": "Bakı, Azərbaycan",
   "name": "Eldar Paşazadə",
   "nickname": "eldarlrd",
-  "profession": "Software Engineer"
+  "profession": "Software Engineer",
+  "quoteTooltip": "A woundless hand may carry even poison",
+  "quoteVerse": "Dhammapada 9:124",
+  "ripTooltip": "unless ☠"
 }
