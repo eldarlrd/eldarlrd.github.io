@@ -3,10 +3,29 @@
 @layer base {
   a, button {
     -webkit-tap-highlight-color:
-      color-mix(var(--color-violet-700) 50%, transparent);
+      color-mix(var(--color-violet-700) 10%, transparent);
   }
 }
 
 @theme inline {
   --font-handjet: 'Handjet Variable';
+}
+
+/* Tooltip */
+.tippy-box[data-theme~='violet'] {
+  background: var(--color-violet-900);
+  border-radius: unset;
+  color: var(--color-slate-50);
+  font-family: var(--font-handjet), sans-serif;
+  font-size: 0.875em;
+  font-weight: var(--font-weight-light);
+
+  & .tippy-content {
+    letter-spacing: 0.05em;
+    padding: 0.25em 0.5em;
+  }
+
+  & .tippy-arrow {
+    color: var(--color-violet-900);
+  }
 }

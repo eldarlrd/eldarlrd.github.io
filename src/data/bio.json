@@ -1,17 +1,31 @@
 {
   "avatarUrl": "https://github.com/eldarlrd.png",
-  "blogUrl": "/eldarlrd/blog",
   "company": "Distechsol LLC",
   "dateOfBirth": "2001-11-27",
-  "githubUrl": "/github",
-  "instagramUrl": "https://instagram.com/eldarlrd",
-  "linkedinUrl": "https://linkedin.com/in/eldarlrd",
   "location": "Bakı, Azərbaycan",
   "name": "Eldar Paşazadə",
   "nickname": "eldarlrd",
-  "portfolioUrl": "/portfolio",
   "profession": "Software Engineer",
   "quoteTooltip": "“A woundless hand fears no poison.”",
   "quoteVerse": "Dhammapada 9:124",
-  "steamUrl": "https://steamcommunity.com/id/eldarlrd"
+  "socials": [
+    { "icon": "pixelart-icons-font-suitcase", "label": "Portfolio", "url": "/portfolio" },
+    { "icon": "pixelart-icons-font-notebook", "label": "Blog", "url": "/eldarlrd/blog" },
+    { "icon": "pixelart-icons-font-github", "label": "GitHub", "url": "/github" },
+    {
+      "icon": "pixelart-icons-font-linkedin",
+      "label": "LinkedIn",
+      "url": "https://linkedin.com/in/eldarlrd"
+    },
+    {
+      "icon": "pixelart-icons-font-instagram",
+      "label": "Instagram",
+      "url": "https://instagram.com/eldarlrd"
+    },
+    {
+      "icon": "pixelart-icons-font-gear-solid",
+      "label": "Steam",
+      "url": "https://steamcommunity.com/id/eldarlrd"
+    }
+  ]
 }
