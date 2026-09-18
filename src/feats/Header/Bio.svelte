@@ -11,7 +11,7 @@
 
   <figcaption class="space-y-4">
     <h1>
-      <span class="font-medium text-slate-100">{bio.name}</span>
+      <span class="font-normal text-slate-50">{bio.name}</span>
 
       <div>
         {bio.nickname}
@@ -23,7 +23,7 @@
     </h1>
 
     <h2>
-      <span class="text-slate-100" title={'@ ' + bio.company}>{bio.profession}</span>
+      <span class="text-slate-50" title={'@ ' + bio.company}>{bio.profession}</span>
       <div class="text-lg/6">
         <i class="pixelart-icons-font-map-pin align-text-bottom text-base!"></i>
         {bio.location}
