@@ -9,7 +9,7 @@
   onMount(useTooltip);
 </script>
 
-<div class="justify-self-center-safe w-full max-w-5xl">
+<div class="justify-self-center-safe w-full max-w-3xl">
   <Header />
 </div>
 

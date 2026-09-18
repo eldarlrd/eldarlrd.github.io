@@ -7,7 +7,7 @@
 </script>
 
 <figure class="grid grid-cols-[auto_minmax(0,1fr)] items-center-safe justify-baseline gap-4">
-  <img alt="Avatar" class="border-violet-400 aspect-square size-32 border-2" src={bio.avatar} />
+  <img alt="Avatar" class="border-violet-400 aspect-square size-32 border-2" src={bio.avatarUrl} />
 
   <figcaption class="space-y-4">
     <h1>
@@ -15,7 +15,7 @@
 
       <div>
         {bio.nickname}
-        <time title={bio.ripTooltip}>
+        <time title="unless ☠">
           <i class="pixelart-icons-font-cake align-text-bottom text-base!"></i>
           {yearsOld}
         </time>
@@ -23,7 +23,7 @@
     </h1>
 
     <h2>
-      <span class="text-slate-100">{bio.profession}</span>
+      <span class="text-slate-100" title={'@ ' + bio.company}>{bio.profession}</span>
       <div class="text-lg/6">
         <i class="pixelart-icons-font-map-pin align-text-bottom text-base!"></i>
         {bio.location}

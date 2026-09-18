@@ -1,17 +1,17 @@
 {
-  "avatar": "https://github.com/eldarlrd.png",
-  "blog": "/eldarlrd/blog",
+  "avatarUrl": "https://github.com/eldarlrd.png",
+  "blogUrl": "/eldarlrd/blog",
+  "company": "Distechsol LLC",
   "dateOfBirth": "2001-11-27",
-  "github": "/github",
-  "instagram": "https://instagram.com/eldarlrd",
-  "linkedin": "https://linkedin.com/in/eldarlrd",
+  "githubUrl": "/github",
+  "instagramUrl": "https://instagram.com/eldarlrd",
+  "linkedinUrl": "https://linkedin.com/in/eldarlrd",
   "location": "Bakı, Azərbaycan",
   "name": "Eldar Paşazadə",
   "nickname": "eldarlrd",
-  "portfolio": "/portfolio",
+  "portfolioUrl": "/portfolio",
   "profession": "Software Engineer",
   "quoteTooltip": "A woundless hand may carry even poison",
   "quoteVerse": "Dhammapada 9:124",
-  "ripTooltip": "unless ☠",
-  "steam": "https://steamcommunity.com/id/eldarlrd"
+  "steamUrl": "https://steamcommunity.com/id/eldarlrd"
 }
