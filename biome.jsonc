@@ -108,6 +108,7 @@
         "noNestedComponentDefinitions": "error", // React
         "noUnresolvedImports": "off",
         "noUnusedInstantiation": "info",
+        "useHookAtTopLevel": "off", // React • Conflicts w/ Svelte
         "useSingleJsDocAsterisk": "info",
         "useUniqueElementIds": "off" // React
       },

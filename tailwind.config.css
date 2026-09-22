@@ -9,6 +9,7 @@
 
 @theme inline {
   --font-handjet: 'Handjet Variable';
+  --shadow-sharp: 0.25em 0.25em 0 #000;
 }
 
 /* Tooltip */
