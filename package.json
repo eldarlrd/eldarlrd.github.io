@@ -20,11 +20,20 @@
     "deployer": "bun bundle && gh-pages -b prod -m 'build(prod): deployment' -d dist",
     "fix": "biome check --fix --unsafe --no-errors-on-unmatched --reporter=concise",
     "fix:s": "bun fix && svelte-check --incremental --tsgo",
-    "orphans": "knip --cache --no-exit-code"
+    "orphans": "knip-bun --cache --no-exit-code"
   },
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
+    ]
+  },
+  "knip": {
+    "ignoreFiles": [
+      "tailwind.config.css"
+    ],
+    "ignoreDependencies": [
+      "@typescript/native-preview",
+      "tailwindcss"
     ]
   },
   "dependencies": {

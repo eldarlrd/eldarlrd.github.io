@@ -7,11 +7,11 @@ pre-commit:
   piped: true
   commands:
     fix:
-      run: bun fix && git update-index -g
+      run: bun fix:s && git update-index -g
 pre-push:
   parallel: true
   commands:
     orphans:
       run: bun orphans
-#    cover:
-#      run: bun cover
+    cover:
+      run: bun cover
