@@ -40,7 +40,7 @@ bun orphans
 ## Test
 ### Run Watch
 ```sh
-bun check
+bun check:w
 ```
 ## Deployment
 ```sh
