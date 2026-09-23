@@ -29,9 +29,9 @@ bun bundle
 bun serve
 ```
 ## Tools
-### Fix Code (Biome)
+### Fix Code (Biome + SV Check)
 ```sh
-bun fix
+bun fix:s
 ```
 ### See Orphans (Knip)
 ```sh
@@ -40,7 +40,7 @@ bun orphans
 ## Test
 ### Run Watch
 ```sh
-bun check:w
+bun check
 ```
 ## Deployment
 ```sh
