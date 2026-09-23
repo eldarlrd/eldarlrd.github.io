@@ -10,6 +10,23 @@
 @theme inline {
   --font-handjet: 'Handjet Variable';
   --shadow-sharp: 0.25em 0.25em 0 #000;
+  --animate-bg-pan: bg-pan 20s linear infinite;
+}
+
+@keyframes bg-pan {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -7em 7em;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #root {
+    animation: none;
+  }
 }
 
 /* Tooltip */

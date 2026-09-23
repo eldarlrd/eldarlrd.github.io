@@ -6,8 +6,8 @@
   "categories": ["personalization"],
   "display": "minimal-ui",
   "orientation": "natural",
-  "theme_color": "#fff",
-  "background_color": "#fff",
+  "theme_color": "#2f0d68",
+  "background_color": "#2f0d68",
   "description": "eldarlrd's personal website",
   "start_url": "https://eldarlrd.is-a.dev/",
   "icons": [
