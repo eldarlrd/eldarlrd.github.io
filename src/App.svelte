@@ -1,7 +1,8 @@
 <script lang="ts">
   import { onMount } from 'svelte';
 
-  import About from '@/feats/About/About.svelte';
+  import Aside from '@/feats/Aside/Aside.svelte';
+  import Main from '@/feats/Main/Main.svelte';
   import '/tailwind.config.css';
   import '@fontsource-variable/handjet';
   import Modal from '@/components/Modal.svelte';
@@ -17,7 +18,11 @@
 
 <div class="bg-slate-900 p-4 mx-auto min-h-dvh space-y-4 max-w-3xl">
   <Header />
-  <About />
+
+  <div class="grid sm:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] gap-4">
+    <Main />
+    <Aside />
+  </div>
 
   {#if activeModal}
     <Modal isOpen={activeModal.isOpen} onClose={activeModal.close}>

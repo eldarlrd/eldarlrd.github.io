@@ -85,7 +85,7 @@
     <div
       aria-label={ariaLabel}
       aria-modal="true"
-      class="w-full max-w-lg h-3/4 bg-slate-900 p-4 shadow-sharp border-2 shadow-violet-900 border-violet-900"
+      class="w-11/12 max-w-lg h-3/4 bg-slate-900 p-4 shadow-sharp border-2 shadow-violet-900 border-violet-900"
       onsubmit={handleSubmit}
       role="dialog"
       tabindex="-1"
