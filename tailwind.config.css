@@ -32,6 +32,7 @@
 /* Tooltip */
 .tippy-box[data-theme~='violet'] {
   background: var(--color-violet-900);
+  border: 1px solid var(--color-violet-400);
   border-radius: unset;
   color: var(--color-slate-50);
   font-family: var(--font-handjet), sans-serif;

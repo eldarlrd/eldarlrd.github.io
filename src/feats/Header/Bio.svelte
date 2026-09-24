@@ -1,9 +1,10 @@
 <script lang="ts">
-  import { getYearsSince } from '%/getYearsSince.ts';
+  import { getTimeSince } from '%/getTimeSince.ts';
   import bio from '$/bio.json' with { type: 'json' };
 
   const birthDate = Temporal.PlainDate.from(bio.dateOfBirth);
-  const yearsOld = getYearsSince(birthDate);
+  const { years: yearsOld, days: daysAlive } = getTimeSince(birthDate);
+  const averageLifespan = 72;
 </script>
 
 <figure class="grid grid-cols-[auto_minmax(0,1fr)] items-center-safe justify-baseline gap-4">
@@ -14,9 +15,11 @@
       <span class="font-normal text-slate-50">{bio.name}</span>
       <div>
         {bio.nickname}
-        <time title="unless ☠">
-          <i class="pixelart-icons-font-cake align-text-bottom text-base!"></i>
-          {yearsOld}
+        <time title={'☼ ' + daysAlive.toLocaleString()}>
+          <i
+            class='{yearsOld > averageLifespan ? 'pixelart-icons-font-skull' : 'pixelart-icons-font-cake'} align-text-bottom text-base!'
+          ></i>
+          {yearsOld.toLocaleString()}
         </time>
       </div>
     </h1>

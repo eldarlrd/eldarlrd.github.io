@@ -1,5 +1,6 @@
 import { delegate } from 'tippy.js';
 import 'tippy.js/dist/tippy.css';
+import 'tippy.js/dist/border.css';
 
 const TOOLTIP_TARGETS = '[title]';
 const SHOW_DELAY = 500;
