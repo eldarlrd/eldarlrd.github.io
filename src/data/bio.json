@@ -6,8 +6,28 @@
   "name": "Eldar Paşazadə",
   "nickname": "eldarlrd",
   "profession": "Software Engineer",
-  "quoteTooltip": "“A woundless hand fears no poison.”",
-  "quoteVerse": "Dhammapada 9:124",
+  "quotes": [
+    {
+      "icon": "tea",
+      "tooltip": "“A woundless hand fears no poison.”",
+      "verse": "Dhammapada 9:124"
+    },
+    {
+      "icon": "wall",
+      "tooltip": "“Delusion's destruction: a mountain unshakable.”",
+      "verse": "Udana 3:4"
+    },
+    {
+      "icon": "library",
+      "tooltip": "“Learn, don't think; a loss. Think, don't learn; danger.”",
+      "verse": "Lunyu 2:15"
+    },
+    {
+      "icon": "sword",
+      "tooltip": "“Killers make killers; conquerors, conquerors; abuse, abuse.”",
+      "verse": "Samyutta Nikaya 3:15"
+    }
+  ],
   "socials": [
     { "icon": "pixelart-icons-font-suitcase", "label": "Portfolio", "url": "/portfolio" },
     { "icon": "pixelart-icons-font-notebook", "label": "Blog", "url": "/eldarlrd/blog" },

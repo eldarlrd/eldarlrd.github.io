@@ -38,6 +38,7 @@
   font-family: var(--font-handjet), sans-serif;
   font-size: 0.875em;
   font-weight: var(--font-weight-light);
+  text-align: center;
 
   & .tippy-content {
     letter-spacing: 0.05em;

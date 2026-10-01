@@ -1,11 +1,13 @@
 <script lang="ts">
   import bio from '$/bio.json' with { type: 'json' };
+
+  const quote = bio.quotes[~~(Math.random() * bio.quotes.length)];
 </script>
 
 <figure class="flex items-center gap-5 sm:justify-between">
-  <p class="inline-block text-sm/4" title={bio.quoteTooltip}>
-    <i class="pixelart-icons-font-tea align-sub text-sm!"></i>
-    {bio.quoteVerse}
+  <p class="inline-block text-sm/4 min-w-32 text-center" title={quote.tooltip}>
+    <i class="pixelart-icons-font-{quote.icon} align-text-bottom text-sm/4!"></i>
+    {quote.verse}
   </p>
 
   <section aria-label="Links" class="flex items-center gap-2">
