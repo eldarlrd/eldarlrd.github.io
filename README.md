@@ -20,10 +20,6 @@ bun i
 ```sh
 bun dev
 ```
-### Prod Build
-```sh
-bun bundle
-```
 ### Preview Prod Build
 ```sh
 bun serve
