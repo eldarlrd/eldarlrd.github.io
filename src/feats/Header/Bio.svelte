@@ -8,11 +8,15 @@
 </script>
 
 <figure class="grid grid-cols-[auto_minmax(0,1fr)] items-center-safe justify-baseline gap-4">
-  <img alt="Avatar" class="border-violet-400 aspect-square size-32 border-2" src={bio.avatarUrl} />
+  <img
+    alt="Avatar"
+    class="border-violet-400 pointer-events-none aspect-square size-32 border-2"
+    src={bio.avatarUrl}
+  />
 
   <figcaption class="space-y-4">
     <h1>
-      <span class="font-normal text-slate-50">{bio.name}</span>
+      <span class="font-normal text-violet-400">{bio.name}</span>
       <div>
         {bio.nickname}
         <time title={'☼ ' + daysAlive.toLocaleString()}>

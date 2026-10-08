@@ -14,7 +14,7 @@
     {#each bio.socials as social (social.label)}
       <a
         aria-label={social.label}
-        class="hover:text-violet-600 transition-colors active:text-violet-700"
+        class="hover:text-violet-400 transition-colors active:text-violet-500"
         href={social.url}
         title={social.label}
       >
