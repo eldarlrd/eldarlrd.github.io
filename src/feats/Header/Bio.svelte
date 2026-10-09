@@ -16,7 +16,7 @@
 
   <figcaption class="space-y-4">
     <h1>
-      <span class="font-normal text-violet-400">{bio.name}</span>
+      <span class="font-normal text-slate-50">{bio.name}</span>
       <div>
         {bio.nickname}
         <time title={'☼ ' + daysAlive.toLocaleString()}>
