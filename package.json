@@ -18,7 +18,7 @@
     "check": "bun test __tests__/**/*.{test,spec}.{ts,tsx} --randomize --pass-with-no-tests",
     "check:w": "bun check --watch",
     "cover": "bun check --coverage",
-    "deployer": "bun bundle && gh-pages -b prod -m 'build(prod): deployment' -d dist",
+    "ship": "bun bundle && gh-pages -b prod -m 'build(prod): shipment' -d build",
     "fix": "biome check --fix --unsafe --no-errors-on-unmatched --reporter=concise",
     "fix:s": "bun fix && svelte-check --incremental --tsgo",
     "orphans": "knip-bun --cache --no-exit-code"
