@@ -8,9 +8,9 @@
 }
 
 @theme inline {
-  --font-handjet: 'Handjet Variable';
-  --shadow-sharp: 0.25rem 0.25rem 0 #000;
   --animate-bg-pan: bg-pan 20s linear infinite;
+  --font-handjet: 'Handjet Variable';
+  --shadow-sharp-lg: 0.25rem 0.25rem 0 var(--color-slate-950);
 }
 
 @keyframes bg-pan {
@@ -20,12 +20,6 @@
 
   to {
     background-position: -7rem 7rem;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  #root {
-    animation: none;
   }
 }
 

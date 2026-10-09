@@ -13,9 +13,9 @@ type ModalController = {
   close: () => void;
 };
 
-export const modalHost = $state<{ current: ModalController | null }>({ current: null });
+const modalHost = $state<{ current: ModalController | null }>({ current: null });
 
-export const useModal = ({ child }: ModalOptions): ModalController => {
+const useModal = ({ child }: ModalOptions): ModalController => {
   let isOpen = $state(false);
 
   const controller: ModalController = {
@@ -36,3 +36,5 @@ export const useModal = ({ child }: ModalOptions): ModalController => {
 
   return controller;
 };
+
+export { modalHost, useModal };

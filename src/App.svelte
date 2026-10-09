@@ -11,12 +11,12 @@
   import { modalHost } from '%/useModal.svelte.ts';
   import { useTooltip } from '%/useTooltip.ts';
 
-  let activeModal = $derived(modalHost.current);
+  const activeModal = $derived(modalHost.current);
 
   onMount(useTooltip);
 </script>
 
-<div class="bg-slate-900 p-4 mx-auto min-h-dvh space-y-4 max-w-3xl">
+<div class="bg-slate-900 border-violet-400 border-x p-4 mx-auto min-h-dvh space-y-4 max-w-3xl">
   <Header />
 
   <div class="grid sm:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] gap-4">
