@@ -4,7 +4,7 @@ const state = <T>(value: T): T => value;
 
 Object.assign(globalThis, { $state: state });
 
-const { modalHost, useModal } = await import('%/useModal.svelte.ts');
+const { modalHost, useModal } = await import('%/useModal.ts');
 
 const createChild = (): Parameters<typeof useModal>[0]['child'] =>
   (() => null) as unknown as Parameters<typeof useModal>[0]['child'];
