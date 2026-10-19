@@ -8,7 +8,7 @@
   import Modal from '@/components/Modal.svelte';
   import Header from '@/feats/Header/Header.svelte';
   import 'pixelarticons/fonts/pixelart-icons-font.css';
-  import { modalHost } from '%/useModal.ts';
+  import { modalHost } from '%/useModal.svelte.ts';
   import { useTooltip } from '%/useTooltip.ts';
 
   const activeModal = $derived(modalHost.current);
