@@ -5,7 +5,7 @@
 </script>
 
 <figure class="flex items-center gap-5 sm:justify-between">
-  <p class="inline-block text-sm/4 min-w-32 text-center" title={quote.tooltip}>
+  <p class="inline-block min-w-32 text-center text-sm/4" title={quote.tooltip}>
     <i class="pixelart-icons-font-{quote.icon} align-text-bottom text-sm/4!"></i>
     {quote.verse}
   </p>
@@ -14,7 +14,7 @@
     {#each bio.socials as social (social.label)}
       <a
         aria-label={social.label}
-        class="hover:text-violet-400 transition-colors active:text-violet-500"
+        class="transition-colors hover:text-violet-400 active:text-violet-500"
         href={social.url}
         title={social.label}
       >

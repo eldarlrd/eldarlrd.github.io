@@ -16,10 +16,10 @@
   onMount(useTooltip);
 </script>
 
-<div class="bg-slate-900 border-violet-400 border-x p-4 mx-auto min-h-dvh space-y-4 max-w-3xl">
+<div class="mx-auto min-h-dvh max-w-3xl space-y-4 border-x border-violet-400 bg-slate-900 p-4">
   <Header />
 
-  <div class="grid sm:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] gap-4">
+  <div class="grid gap-4 sm:grid-cols-[minmax(0,2fr)_minmax(0,1fr)]">
     <Main />
     <Aside />
   </div>

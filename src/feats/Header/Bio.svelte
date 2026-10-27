@@ -10,7 +10,7 @@
 <figure class="grid grid-cols-[auto_minmax(0,1fr)] items-center-safe justify-baseline gap-4">
   <img
     alt="Avatar"
-    class="border-violet-400 pointer-events-none aspect-square size-32 border-2"
+    class="pointer-events-none aspect-square size-32 border-2 border-violet-400"
     src={bio.avatarUrl}
   />
 
@@ -21,7 +21,9 @@
         {bio.nickname}
         <time title={'☼ ' + daysAlive.toLocaleString()}>
           <i
-            class='{yearsOld > averageLifespan ? 'pixelart-icons-font-skull' : 'pixelart-icons-font-cake'} align-text-bottom text-base!'
+            class='{yearsOld > averageLifespan
+              ? 'pixelart-icons-font-skull'
+              : 'pixelart-icons-font-cake'} align-text-bottom text-base!'
           ></i>
           {yearsOld.toLocaleString()}
         </time>
